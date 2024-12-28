@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first {
+    position: relative;
+    height: 500px;
+    background-color: rgba(2, 2, 148, 0.678);
+    text-align: center;
+    color: white;
+    p {
+        position: absolute;
+        top: 50px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
+}
+.part {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    background-color: gray;
+    text-align: center;
+    margin: 0 20px;
+    position: relative;
+    top: -100px;
+    left: 250px;
+    z-index: 2;
+    p {
+        margin-top: 30px;
+    }
+}
